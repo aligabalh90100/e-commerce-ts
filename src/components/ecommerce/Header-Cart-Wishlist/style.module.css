@@ -1,0 +1,50 @@
+.container {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  gap: 7px;
+}
+
+.totalNum {
+  background-color: #0dcaf0;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid;
+  position: absolute;
+  top: -8px;
+  right: 68px;
+  font-size: 12px;
+}
+
+.pumpQunatity {
+  animation: pumpCartQunatity 600ms ease-out;
+}
+@keyframes pumpCartQunatity {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(0.8);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.iconContainer {
+  position: relative;
+}
+.iconContainer div {
+  position: absolute;
+  left: 15px;
+  top: -5px;
+  height: 18px;
+  width: 18px;
+}

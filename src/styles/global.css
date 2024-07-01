@@ -1,0 +1,17 @@
+.notFound {
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.notFound a {
+  text-decoration: none;
+  font-size: 18px;
+}
+@media (max-width: 428px) {
+  .notFound a {
+    font-size: 12px;
+  }
+}
