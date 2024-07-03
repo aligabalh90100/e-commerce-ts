@@ -9,6 +9,11 @@ Before you begin, ensure you have the following installed:
 - Node.js
 - yarn (for package management)
 
+## Recorded video for the project
+```bash
+https://drive.google.com/file/d/1Ll9IT8E0mVn07laqp20saB56UteGQyZw/view?usp=drivesdk
+```
+
 ## Installation
 
 1. Clone this repository:
